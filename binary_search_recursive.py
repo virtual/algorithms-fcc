@@ -1,6 +1,7 @@
 def binary_search_recursive(list, target):
     """
     Returns true or false if target is found
+    Also logarithmic run time
     """
 
     if (len(list) == 0):
